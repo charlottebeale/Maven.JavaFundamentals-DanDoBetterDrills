@@ -49,9 +49,11 @@ public class TestMultiplication {
     @Test
     public void testByteMultiplication() {
         // : Given
+
         byte multiplicand = 8;
         byte multiplier = 8;
         byte expectedByte = 64;
+
         // : When
         byte actualByte = mathUtils.multiply(multiplicand, multiplier);
         // : Then
